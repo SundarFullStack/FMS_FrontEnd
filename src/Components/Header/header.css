@@ -1,0 +1,50 @@
+.header{
+    width:100%;
+    margin-bottom:12px;
+    box-shadow:rgba(28, 28, 28, 0.08) 0px 2px 8px;
+}
+.header-logo{
+    width: 65px;
+    border-radius: 50%;
+    height: 65px;
+}
+
+
+.profile-wrapper{
+    align-items: center;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-img{
+    height:60px;
+    width:60px;
+    border-radius:50%;
+    background-color:var(--gray)
+}
+
+.profile-userName{
+    margin-right:40px;
+    padding:10px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.profile-options-icon{
+font-size:25px;
+}
+
+
+@media only screen and (max-width:400px){
+    .profile-wrapper{
+    width:50%;
+    margin:10px;
+    }
+}
+
+@media only screen and (max-width:800px){
+    .profile-wrapper{
+    margin:10px;
+    }
+}

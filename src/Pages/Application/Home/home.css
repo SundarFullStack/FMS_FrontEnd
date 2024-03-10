@@ -1,0 +1,94 @@
+.home-container {
+  width: 100%;
+  margin-top: 30px;
+  overflow-x: hidden;
+}
+
+.home-content-form {
+  margin: 20px;
+  box-shadow: var(--primary-box-shadow);
+  padding: 20px;
+}
+
+.input-label {
+  color: var(--gray);
+  font-weight: 600;
+}
+.table{
+    margin-top:20px;
+    box-shadow:var(--primary-box-shadow)
+}
+.table td {
+  color:#575252;
+}
+
+.table th{
+    background-color: var(--inActive-color);
+}
+
+.home-header {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--farmer-green);
+}
+
+.generate-bill-cover {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  box-shadow:var(--primary-box-shadow);
+  padding:10px;
+}
+
+.generate-bill-price {
+  font-weight: 600;
+  margin: 20px;
+}
+
+.card-header{
+    font-size: 20px;
+}
+
+.cart-btn-cover{
+   padding: 10px 0px 15px 20px;
+}
+
+.cart-btn{
+    width:100%;
+    margin:10px 0px;
+}
+
+.cart-details-delete-button{
+  width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.login-navigator-container{
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.login-navigator-cover{
+  margin:50px 50px;
+    padding: 50px;
+    box-shadow: 0px 4px 8px 0px #757575;
+}
+
+.location-navigator-content{
+  align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.button-cover{
+  margin-top:50px;
+  align-items: center;
+    justify-content: center;
+    display: flex;
+}

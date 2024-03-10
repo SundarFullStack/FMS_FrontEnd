@@ -1,0 +1,22 @@
+
+.footer-content-container{
+    width:100%;
+    background-color:black;
+    display:flex;
+    justify-content:center;
+    align-items:center
+
+}
+
+.footer-content-dialogue{
+    padding: 20px;
+    width: 1000px;
+    margin: 20px auto 0px auto;
+    color: white;
+}
+
+.footer-content-dialogue span{
+
+    color:var(--farmer-green);
+
+}

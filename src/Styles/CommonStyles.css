@@ -1,0 +1,16 @@
+
+.absolute-center{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.cursor-pointer{
+    cursor:pointer;
+    color:var(--farmer-gray);
+}
+
+auth{
+    background-color: lightsalmon;
+    padding:50px;
+}

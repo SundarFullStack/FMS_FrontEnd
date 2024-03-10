@@ -1,0 +1,33 @@
+
+.main-container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:40px;
+
+}
+
+
+.dialogue-cover{
+    box-shadow:0px 4px 8px 0px #757575;
+    border-radius:4px;
+    width:1100px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding: 20px 0px 20px 0px;
+    border:none
+}
+
+
+.dialogue{
+    color:var(--farmer-green);
+    font-size:30px;
+
+}
+
+.message{
+    color:var(--inActive-text)
+}
+
+

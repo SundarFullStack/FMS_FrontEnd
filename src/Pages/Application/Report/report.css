@@ -1,0 +1,92 @@
+.report-container{
+    box-shadow: 0px 4px 8px 0px #757575;
+    padding: 30px 20px 40px 20px;
+    margin: 20px 30px;
+}
+.header-card{
+    width:100%;
+}
+
+.report-header-card-buttons{
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+
+.report-header{
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    display: flex;
+}
+
+.report-header-content{
+    font-weight: 600;
+}
+
+
+
+.react-datepicker-wrapper{
+ display: block!important;
+}
+   
+
+
+/* Table */
+
+  /* TableWithResponsiveStyles.css */
+  .table-responsive {
+    overflow-x: auto; 
+    display:grid;
+  }
+  
+  
+  .page-link{
+    color:#1e1e2c;
+  }
+  .searchFilter{
+  display:flex;
+  justify-content:right;
+  margin-bottom:10px;
+  
+  }
+  
+  .datatable{
+    font-weight: 400;
+    font-size: 18px;
+    margin: 30px 22px;
+    margin-left: 0px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  @media (max-width:767px){
+    .report-header-card-buttons{
+        margin-top:20px;
+    }
+    .input-style{
+        margin-top:30px;
+    }
+    #input-cover{
+        margin-top:12px
+    }
+
+}
+
+  
+@media (max-width: 767px) {
+    .table td,
+    .table th {
+      white-space: nowrap; 
+      overflow: hidden;
+      text-overflow: ellipsis; 
+    }
+  }
+
+  @media (max-width:400px){
+    .searchFilter{
+        width:180px !important;
+      }
+}
